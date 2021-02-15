@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MarvelComics</string>
+    <string name="title_home"></string>
+    <string name="title_dashboard"></string>
+    <string name="cancelBtn">Cancel</string>
+
+
+    <string name="home_title">Marvel Comics</string>
+    <string name="search_info">Start typing to find a particulat comics.</string>
+    <string name="details">Details</string>
+    <string name="no_results">There is not comic book \"</string>
+    <string name="no_results2">\" in our library. Check the peling and try again.</string>
+    <string name="find_out_more">Find out more</string>
+
+</resources>
