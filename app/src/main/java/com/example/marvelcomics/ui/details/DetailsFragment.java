@@ -41,7 +41,7 @@ public class DetailsFragment extends Fragment {
 
 
         ct = getContext();
-        Toast.makeText(ct, "DETAILS", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(ct, "DETAILS", Toast.LENGTH_SHORT).show();
 //        Toast.makeText(ct, getArguments().getString("comic"), Toast.LENGTH_SHORT).show();
         try {
             comic = new JSONObject(getArguments().getString("comic"));

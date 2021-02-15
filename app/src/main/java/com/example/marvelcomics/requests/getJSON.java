@@ -58,7 +58,7 @@ public class getJSON {
         params.put("ts", "1");
         params.put("apikey", "080a502746c8a60aeab043387a56eef0");
         params.put("hash", "6edc18ab1a954d230c1f03c590d469d2");
-        params.put("limit", "20");
+        params.put("limit", "10");
         params.put("offset", "0");
 
         String link2 = createGetWithParams(API, params);
@@ -84,7 +84,7 @@ public class getJSON {
             public void onErrorResponse(VolleyError error) {
 //                loading.dismiss();
                 VolleyLog.d("Error", "Error: " + error.getMessage());
-                Toast.makeText(context, "" + error.getMessage(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(context, "" + error.getMessage(), Toast.LENGTH_SHORT).show();
             }
         })
         {

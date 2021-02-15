@@ -96,7 +96,6 @@ public class SearchFragment extends Fragment {
         ((SearchView)root.findViewById(R.id.searchview)).setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(final String query) {
-                Log.i("QUERY", ": " + query);
                 mHandler.removeCallbacksAndMessages(null);
                 getComicsAPI(query);
                 return true;
@@ -113,10 +112,9 @@ public class SearchFragment extends Fragment {
                         }else{
                             hideViews(false, newText);
                         }
-                        Log.i("QUERY", "HALO: " + newText);
                         getComicsAPI(newText);
                     }
-                }, 500);
+                }, 1500);
                 return true;
             }
         });
